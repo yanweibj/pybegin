@@ -8,7 +8,7 @@
 - [Python 3 教程 | 菜鸟教程](https://www.runoob.com/python3/python3-tutorial.html)
 - [Python教程 | 廖雪峰](https://www.liaoxuefeng.com/wiki/1016959663602400)
 
-## Download code and create your branch
+## Download Github Desktop to clone code and create your branch
 - [Git 基础教程](https://pages.github.ibm.com/xlsunnb/KnowledgeCenter/#git/)
 - [Git Desktop download](https://desktop.github.com/)
 - [Git Desktop Help](https://help.github.com/en/desktop/getting-started-with-github-desktop)
