@@ -1,6 +1,5 @@
 
-#name = input("请输入姓名:")
-i=40
-j=40
-print(hex(id(i)))
-print(hex(id(j)))
+name = input("请输入姓名:")
+age = input("请输入年龄:")
+print("输入的是:"+name)
+print("年龄是:"+age)
