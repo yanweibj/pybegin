@@ -15,6 +15,8 @@ while float_height >= 0.01:
     float_sum += float_height
     float_height /= 2
     float_sum += float_height
-
-print("一共弹起"+str(int_count)+"次")
-print("总共走了"+str(float_sum)+"米")
+    print("第%d次弹起来的高度是%f." % (int_count, float_height))
+#加入最后一次落地的高度
+float_sum += float_height
+print("一共弹起%d次" %int_count)
+print("总共走了%.2f米" % float_sum)
