@@ -6,12 +6,12 @@
 
 import random
 
-blue = []
-while(len(blue) < 6):
+redball = []
+while(len(redball) < 6):
     x = random.randint(1,33)
-    if x not in blue:
-        blue.append(x)
-blue.sort()
-red = []
-red.append(random.randint(1,16))
-print("篮球号码为: " + str(blue) +", 红球号码为: " + str(red))
+    if x not in redball:
+        redball.append(x)
+redball.sort()
+blueball = []
+blueball.append(random.randint(1,16))
+print("红球号码为: " + str(redball) +", 蓝球号码为: " + str(blueball))
