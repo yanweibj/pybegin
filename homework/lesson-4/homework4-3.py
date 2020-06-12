@@ -11,7 +11,11 @@ while(len(redball) < 6):
     x = random.randint(1,33)
     if x not in redball:
         redball.append(x)
+
+#solution 2
+#redball = random.sample(range(1,34),6)
 redball.sort()
 blueball = []
 blueball.append(random.randint(1,16))
 print("红球号码为: " + str(redball) +", 蓝球号码为: " + str(blueball))
+
